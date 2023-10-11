@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+nav {
+
+    .navbar-nav.nav-link.show,
+    .navbar-brand,
+    .nav-link,
+    .fa-bars {
+        color: #fff;
+    }
+
+    .nav-link:focus,
+    .nav-link:hover,
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link.show {
+        color: #039dff;
+    }
+
+}
