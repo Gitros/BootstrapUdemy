@@ -1,14 +1,6 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+@use './colors.scss' as c;
+@use './reset.scss';
 
-body {
-    background-color: #333;
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-}
 
 nav {
 
@@ -16,14 +8,14 @@ nav {
     .navbar-brand,
     .nav-link,
     .fa-bars {
-        color: #fff;
+        color: c.$white;
     }
 
     .nav-link:focus,
     .nav-link:hover,
     .navbar-nav .nav-link.active,
     .navbar-nav .nav-link.show {
-        color: #039dff;
+        color: c.$main-color;
     }
 
 }
