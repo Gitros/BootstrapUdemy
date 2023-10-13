@@ -11,6 +11,18 @@ nav {
         color: c.$white;
     }
 
+    .navbar-brand {
+        font-weight: bold;
+    }
+
+    .navbar-brand:hover {
+        color: c.$main-color;
+    }
+
+    .navbar-toggler {
+        padding: 10px 15px;
+    }
+
     .nav-link:focus,
     .nav-link:hover,
     .navbar-nav .nav-link.active,

@@ -16,6 +16,15 @@ nav .nav-link,
 nav .fa-bars {
   color: #fff;
 }
+nav .navbar-brand {
+  font-weight: bold;
+}
+nav .navbar-brand:hover {
+  color: #039dff;
+}
+nav .navbar-toggler {
+  padding: 10px 15px;
+}
 nav .nav-link:focus,
 nav .nav-link:hover,
 nav .navbar-nav .nav-link.active,
